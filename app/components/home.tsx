@@ -133,7 +133,7 @@ function _Home() {
             <IconButton icon={<AddIcon />} text={Locale.Home.NewChat} onClick={() => {createNewSession();setShowSideBar(false);}} shadow/>
           </div>
 
-          <div className={styles["sidebar-actions"]}>
+          {/* <div className={styles["sidebar-actions"]}> */}
 
             {/*<div className={styles["sidebar-action"] + " " + styles.mobile}>*/}
             {/*  <IconButton*/}
@@ -148,12 +148,12 @@ function _Home() {
 
 
 
-            <div className={styles["sidebar-action"]}>
-              <a href={WECHAT_WB_URL} style={{ textDecoration: 'none', color: 'inherit', fontFamily: 'inherit', fontSize: 'inherit' }} target="_blank">
-                <IconButton icon={<HomeIcon />} text={Locale.Home.WebSite} shadow/>
-              </a>
-            </div>
-          </div>
+            {/* <div className={styles["sidebar-action"]}> */}
+              {/* <a href={WECHAT_WB_URL} style={{ textDecoration: 'none', color: 'inherit', fontFamily: 'inherit', fontSize: 'inherit' }} target="_blank"> */}
+                {/* <IconButton icon={<HomeIcon />} text={Locale.Home.WebSite} shadow/> */}
+              {/* </a> */}
+            {/* </div> */}
+          {/* </div> */}
 
 
         </div>
